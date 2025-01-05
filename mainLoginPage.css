@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3EBF6;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.add-shadow-container{
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    padding: 20px auto;
+    margin: 10px 400px;
+    border-radius: 30px;
+}
+
+.image-set-up{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.big-banner {
+    /* background-image: url("img/pexels-rachel-xiao-7724291.jpg"); */
+    /* background-image: url(../img/pexels-rachel-xiao-7724291.jpg); */
+    /* background-image: url("img/pexels-rachel-xiao-7724291.jpg"); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; */
+
+    
+    background-color: #ffffff;
+    width: 25rem;
+    height: 28.5rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.login-style-text {
+    padding-top: 40px;
+    color: #5573aa;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.login-id-input {
+width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.form-element {
+    margin-top: 3em;
+}
+
+.login-password-input {
+        width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.login-id-input:focus, .login-password-input:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    
+}
+
+.submit {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #d798e2, #a711c2);
+    border: 0;
+    padding: 15px 80px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 17%;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.radio-button-container{
+    display: flex;
+    width: 100%;
+    margin: 0 50px;
+}
+
+.user-type-container{
+    display: flex;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.margin-right {
+    margin-left: 15px;
+}
+
+[type=radio] {
+    font-size: 20px;
+}
+
+button {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none;
+}
+
+.submit:hover {
+    background: linear-gradient(to right, #750888, #e798f5);
+}
+
+/* @media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    } */
+
+
+/* Modal for signing in */
+
+/* Full-width input fields */
+.login-container input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #222, #222) center bottom/0 0.15em
+        no-repeat,
+      linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
+      linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+    outline: none;
+    font-size: 12.5px;
+    box-shadow: 0 0 15px 4px rgb(0 0 0 / 10%);
+  }
+  
+  .login-container input:focus {
+    background: linear-gradient(45deg, #3023ae 0%, #f09 100%) left bottom/100%
+      0.15em no-repeat;
+  }
+  
+  .space-between {
+    margin: 16px 0;
+  }
+  
+  /* Set a style for all buttons */
+  .login-btn {
+    background-color: #32c3d6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  
+  .login-btn:hover {
+    opacity: 0.75;
+  }
+  
+  .sign-in-modal__create-account-link {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  
+  .sign-in-modal__create-account-link a {
+    color: #32c3d6;
+    font-weight: 500;
+    letter-spacing: 0.35px;
+  }
+  
+  .sign-in-modal__create-account-link a:hover {
+    color: #137481;
+  }
+  
+  /* Extra styles for the cancel button */
+  .btn-cancel {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    font-size: 0.9rem;
+  }
+  
+  /* Center the image and position the btn-close button */
+  .avatar-image-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .login-container {
+    padding: 20px;
+    padding-top: 0;
+  }
+  
+  .txt-align-left {
+    text-align: left;
+  }
+  
+  .txt-align-center{
+    text-align: center;
+  }
+  
+  .padding-left-1rem {
+    padding-left: 20px;
+  }
+  
+  .sign-in-heading {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+  
+  .sign-in-paragraph {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+  }
+  
+  .hr-tag {
+    width: calc(100% - 32px);
+    margin: 10px auto;
+    margin-bottom: 1.5em;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  .login-error-message {
+    font-size: 15px;
+    line-height: 1.5em;
+    color: red;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-container {
+    background-color: #fefefe;
+    margin: 10px 110px 10px 20px; 
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+    min-width: 30%;
+    border-radius: 10px;
+    line-height: 24px;
+  }
+  
+  /* The Close Button (x) */
+  .btn-close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .btn-close:hover,
+  .btn-close:focus {
+    color: #f09;
+    cursor: pointer;
+  }
+  
+  .login-bottom-container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Add Zoom Animation */
+  .enable-animation {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {
+      -webkit-transform: scale(0);
+    }
+    to {
+      -webkit-transform: scale(1);
+    }
+  }
+  
+  @keyframes animatezoom {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+
+    span.psw {
+        display: block;
+        float: none;
+      }
+      .btn-cancel {
+        width: 100%;
+      }
+    }
+  
+    /* Login page reset css */
+  
+    #main-container {
+      width: 100%;
+      position: relative;
+      margin-top: 150px;
+    }
+  
+    #main-container-login,
+    #error-not-found {
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #error-not-found {
+    z-index: 10;
+    /* width: 1000px; */
+  }

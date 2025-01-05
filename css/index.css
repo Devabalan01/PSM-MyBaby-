@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --ff-title: "Montserrat", sans-serif;
+    --ff-body: "Lato", sans-serif;
+}
+
+body {
+    /* background-image: url("../images/background1.jpg"); */
+    background-color: rgb(186, 236, 139);
+    font-family: 'Ubuntu', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 53vh;
+}
+
+.header-title-container {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    height: 4rem;
+    background-color: rgb(31, 30, 30);
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 2px #c7c3c3;
+}
+
+.header-title-container h2 {
+    color: rgb(190, 40, 90);
+}
+
+.title-container {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.title-container button {
+    margin-left: 2rem;
+}
+
+.add-details-button {
+    font-family: var(--ff-body);
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 206, 16);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    /* margin-right: 50%; */
+}
+
+.add-details-button:hover {
+    background-color: rgb(245, 216, 50);
+    cursor: pointer;
+}
+
+.upload-details-button {
+    font-family: var(--ff-body);
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 206, 16);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.upload-details-button:hover {
+    background-color: rgb(245, 216, 50);
+    cursor: pointer;
+}
+
+
+.horizontal-line-style {
+    width: 1160px;
+    margin: 0 auto;
+}
+.title-styles {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+#matchText {
+    margin-left: 550px;
+}
+
+.search-bar {
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-container-style {
+    display: flex;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-family: var(--ff-body);
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 700px;
+}
+  
+.styled-table thead tr {
+    background-color: #7c2020;
+    color: #ffffff;
+    text-align: left;
+}
+  
+.styled-table th, .styled-table td {
+      padding: 12px 15px;
+}
+  
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+  
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #a4a7a3;
+}
+  
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #f8f8f8;
+    color: #9FACE6;
+}
+  
+.styled-table tbody tr:last-of-type {
+    border-bottom: 4px solid #009879;
+}
+  
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: rgba(23, 26, 24, 0.685);
+}
+
+.fa-cogs {
+    font-size: 20px;
+    color: #151616;
+}
+
+.content-table-agent {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+/* Full-width input fields */
+.login-container input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #222, #222) center bottom/0 0.15em
+        no-repeat,
+      linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
+      linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+    outline: none;
+    font-size: 12.5px;
+    box-shadow: 0 0 15px 4px rgb(0 0 0 / 10%);
+  }
+  
+  .trip-type-styles {
+    list-style: none;
+  }
+  
+  .space-between {
+    margin: 16px 0;
+  }
+  
+  .table-align-style {
+    width: 300px;
+  }
+  
+  /* Set a style for all buttons */
+  .login-btn {
+    background-color: #32c3d6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  
+  .login-btn:hover {
+    opacity: 0.75;
+  }
+  
+  .sign-in-modal__create-account-link {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  
+  .sign-in-modal__create-account-link a {
+    color: #32c3d6;
+    font-weight: 500;
+    letter-spacing: 0.35px;
+  }
+  
+  .sign-in-modal__create-account-link a:hover {
+    color: #137481;
+  }
+  
+  /* Extra styles for the cancel button */
+  .btn-cancel {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    font-size: 0.9rem;
+  }
+  
+  /* Center the image and position the btn-close button */
+  .avatar-image-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .login-container {
+    padding: 20px;
+    padding-top: 0;
+  }
+  
+  .txt-align-left {
+    text-align: left;
+  }
+  
+  .txt-align-center{
+    text-align: center;
+  }
+  
+  .padding-left-1rem {
+    padding-left: 20px;
+  }
+  
+  .sign-in-heading {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+  
+  .sign-in-paragraph {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+  }
+  
+  .hr-tag {
+    width: calc(100% - 32px);
+    margin: 10px auto;
+    margin-bottom: 1.5em;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  .login-error-message {
+    font-size: 15px;
+    line-height: 1.5em;
+    color: red;
+  }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-container {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+    min-width: 30%;
+    border-radius: 10px;
+  }
+  
+  /* The Close Button (x) */
+  .btn-close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .btn-close:hover,
+  .btn-close:focus {
+    color: #f09;
+    cursor: pointer;
+  }
+  
+  .login-bottom-container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Add Zoom Animation */
+  .enable-animation {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {
+      -webkit-transform: scale(0);
+    }
+    to {
+      -webkit-transform: scale(1);
+    }
+  }
+  
+  @keyframes animatezoom {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    color: #f8f8f8;
+    text-decoration: none;
+  }
+  
+  .btn-red {
+    background-color: #d83a4a;
+  }
+  
+  .btn-red:hover{
+    background-color: #b41a2a;
+  }
+  
+  .btn-blue {
+    background-color: #0d6efd;
+  }
+  
+  .btn-blue:hover {
+    background-color: #0b5acf;
+  }
+  
+  .btn-green {
+    background-color: #198754;
+  }
+  
+  .btn-green:hover {
+    background-color: #13613d;
+  }
+  
+  .page-button-style {
+    padding-left: 30px;
+    
+  }
+
+.input-field:focus {
+    background-color: chocolate;
+}
+
+.styleButtonUpload {
+  background-color: #32c3d6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.styleButtonUpload:hover {
+  opacity: 0.75;
+}
